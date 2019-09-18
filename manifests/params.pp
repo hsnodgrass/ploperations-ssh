@@ -124,8 +124,8 @@ class ssh::params (
           $ssh_service    = 'svc:/network/cswopenssh:default'
         }
         '11': {
-          $client_package = 'service/network/ssh'
-          $server_package = 'service/network/ssh'
+          $client_package = 'network/ssh'
+          $server_package = 'network/ssh'
           $ssh_service    = 'network/ssh'
         }
         default: {
